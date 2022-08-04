@@ -16,6 +16,11 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    text-align: left;
+    text-decoration: underline;
+}
+
 img {
     display: block;
     height: 50px;

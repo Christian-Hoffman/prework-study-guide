@@ -11,6 +11,7 @@
   </head>
 
   <body>
+
     <header id="header">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
@@ -36,20 +37,37 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
+          <h3>Staging and Changing Branches</h3>
           <li><strong>git status:</strong> checks what branch you are in</li>
-          <li><strong>git add -A:</strong> adds changes for commits later</li>
-          <li><strong>git commit -m 'write changes here':</strong> commits changes to main</li>
-          <li><strong>git push origin main:</strong> pushes commits to main branch</li>
-          <li><strong>git status:</strong> checks what branch we are currently on</li>
-          <li><strong>git checkout main:</strong> checks if in main branch, switches to if not</li>
-          <li><strong>git checkout -b branch-name:</strong> creates a new branch and switches to it</li>
+          <li><strong>git add -a:</strong> adds changes for next commits (stage)</li>
+          <li><strong>git commit -m [write changes here]:</strong> commits changes to main</li>
+          <li><strong>git reset:</strong> unadds changes in commits while keeping changes in working directory (resets stage)</li>
+          <li><strong>git diff:</strong> difference of what is changed but not staged</li>
+          <li><strong>git diff --staged:</strong> difference of what is staged but not yet committed</li>
+          <li><strong>git checkout [branch-name]:</strong> checks if in specific branch, switches to if not</li>
+          <li><strong>git checkout -b [branch-name]:</strong> creates a new branch and switches to it</li>
+          
+          <br>
+          
+          <h3>Updating and Merging</h3>
+          <li><strong>git branch:</strong> lists all branches. * appears next to current active branch</li>
+          <li><strong>git push [alias] [branch-name]:</strong> pushes commits to specific branch</li>
+          <li><strong>git pull [alias] [branch-name]:</strong> fetch and merge specfic branch into current branch </li>
+          <li><strong>git merge [branch-name]:</strong> merges the specific branch into the current one</li>
+          
+          <br>
+
+          <h3>Inspecting and Comparing</h3>
+          <li><strong>git log:</strong> shows all commits in the current branch's history (type q to exit)</li>
+          <li><strong>git log [branch2]..[branch1]:</strong> shows the commits on branch 1 that are not on branch 2</li>
+          <li><strong>git diff [branch2]...[branch1]:</strong> shows the difference of what is in branch1 that is not in branch2</li>
         </ul>
       </section>
 
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your javascript notes here</li>
+          <li>Enter your javascript notes here</li>        
         </ul>
       </section>
     </main>
@@ -57,5 +75,7 @@
     <footer>
       <p>I can code!</p>
     </footer>
+
   </body>
+
 </html>
