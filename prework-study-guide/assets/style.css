@@ -45,3 +45,8 @@ p {
     border: 5px solid gray;
     box-shadow: 3px 6px #888888;
 }
+
+a {
+    margin: 25px ;
+    font-size: 30px;
+}
