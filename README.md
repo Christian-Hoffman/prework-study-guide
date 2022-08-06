@@ -20,7 +20,7 @@ N/A
 
 Best use of this stuidy guide is to use it as a cheat sheet. Have it open when completing assignments/projects, and don't be discouraged if you find yourself using it a lot, that's why it's here.
 
-There are sections for Git and Bash Commands, HTML, CSS, and JavaScript.
+There are sections for Git and Bash Commands, HTML, CSS, and JavaScript.  
 Git and Bash Commands has subsections for Bash Commands, Staging and Changing Branches, Updating and Merging, and Inspecting and Comparing.
 
 If you open the DevTools, Control+Shift+I (Windows) or Command+Option+I (macOS), 
@@ -32,4 +32,4 @@ Christian Hoffman (ME)
 
 ## License
 
-Please refer to the LICENSE in the repo.
+Please refer to the LICENSE in the repository
